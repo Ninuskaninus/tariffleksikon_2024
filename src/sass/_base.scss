@@ -1,0 +1,207 @@
+body{
+    background-color: $light-gray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: $font-family-sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: $white;
+    box-shadow: $box-shadow;
+    padding: 20px;
+    width: 920px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 106px;
+    position: relative;
+}
+
+.frifag-tariff-totop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: $white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+
+    button{
+        background-color: $black;
+        border: none;
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+}
+
+.frifag-tariff-head{
+    max-width: 500px;
+    margin-bottom: 30px;
+    img{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+}
+
+.frifag-tariff-search-container{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+
+    input{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid $stroke-gray;
+        border-radius: 50px;
+        box-shadow: $box-shadow-light;
+        box-sizing: border-box;
+        cursor: text;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+
+    label{
+        position: absolute;
+        top: 19px;
+        left: 20px;
+        transform: translateY(-50%);
+        color: $dark-gray;
+        font-size: 0.9rem;
+        color: $black;
+    }
+
+    button{
+        position: absolute;
+        top: 19px;
+        right: 10px;
+        transform: translateY(-50%);
+        padding: 10px 20px;
+        color: $white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+}
+
+.frifag-tariff-search-none{
+    background-color: $white-gray;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+
+    small {
+        color: $dark-gray;
+    }
+}
+
+.frifag-search-results-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+
+    a{
+        text-decoration: none;
+        color: $black;
+        padding: 10px;
+        padding-left: 20px;
+        border-radius: 5px;
+        box-shadow: $box-shadow-light;
+        cursor: pointer;
+    }
+
+    a:hover{
+        background-color: $white-gray;
+    }
+}
+
+
+
+.frifag-tariff-container{
+    width: 100%;
+    max-width: 500px;
+    background-color: $white-gray;
+    border-radius: 15px;
+    box-shadow: $box-shadow;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.frifag-leksikon-container{
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        margin-bottom: 30px;
+        margin-top: 0;
+        background-color: $orange;
+        color: white;
+        width: 80px;
+        text-align: right;
+        border-radius: 0 10px 10px 0;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    a{
+        text-decoration: none;
+        color: $black;
+        font-weight: bold;
+        font-family: $font-family-sans-serif;
+        background-color: white;
+        padding: 10px;
+        padding-left: 20px;
+        margin-bottom: 8px;
+        box-shadow: $box-shadow-light;
+        cursor: pointer;
+    }
+
+    a:last-child{
+        margin-bottom: 30px;
+    }
+
+    a:hover{
+        background-color: $beige;
+    }
+}
+
+.frifag-tariff-sort{
+    max-width: 500px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    button{
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: $white-gray;
+        box-shadow: $box-shadow-light;
+        padding: 5px;
+        height: 25px;
+        width: 25px;
+    }
+
+    button:hover{
+        background-color: $beige;
+    }
+}

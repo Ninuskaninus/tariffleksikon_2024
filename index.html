@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <script src="/src/js/router.js" type="module" defer></script>
+    <title>Tariffleksikon</title>
+  </head>
+  <body>
+    <main>
+      <div class="frifag-tariff-totop">
+        <button id="btnToTop">Til toppen</button>
+      </div>
+      <div class="frifag-tariff-head">
+        <img src="/src/img/tariff_logo.png" alt="" />
+        <p>
+          Hva betyr egentlig alle ordene som brukes i et tariffoppgjør?
+          FriFagbevegelses tariffleksikon gir deg forklaringer og definisjoner
+          på viktige begreper du kan støte på i lønnsforhandlinger.
+        </p>
+      </div>
+      <div class="frifag-tariff-search-container">
+        <label id="frifagTariffLabel" for="search">Søk her</label>
+        <input type="text" id="frifagTariffSearch" />
+        <div
+          class="frifag-search-results-container"
+          id="frifagSearchResultContainer"
+        ></div>
+        <div class="frifag-tariff-search-none" id="noMatchSearch">
+          <small>Vi fant ingen treff på søket ditt</small>
+        </div>
+      </div>
+      <div class="frifag-tariff-sort"></div>
+      <div class="frifag-tariff-container" id="tariffContainer"></div>
+    </main>
+  </body>
+</html>
