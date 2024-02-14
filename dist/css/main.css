@@ -73,6 +73,7 @@ main {
   margin: 0;
   font-size: 1.8rem;
   font-weight: 500;
+  color: #FE6E1E;
 }
 
 .frifag-tariff-search-container {
@@ -232,6 +233,7 @@ p {
 .frifag-tariff-article-head h2 {
   font-weight: 500;
   margin: 0;
+  color: #FE6E1E;
 }
 
 .frifag-tariff-article-body {
