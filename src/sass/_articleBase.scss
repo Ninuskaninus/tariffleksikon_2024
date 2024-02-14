@@ -2,6 +2,11 @@
     max-width: 500px;
     width: 100%;
     margin-bottom: 30px;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 .frifag-tariff-article-body{
@@ -52,10 +57,12 @@
     text-decoration: none;
     font-weight: bold;
     border-radius: 50px;
+    width: 100%;
 
     &:hover{
         box-shadow: $box-shadow;
     }
+
 }
 
 .frifag-tariff-article-byline{
@@ -71,7 +78,7 @@
     flex-direction: row;
     align-items: center;
     gap: 6px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 
     img{
         width: 50px;
@@ -89,7 +96,5 @@
         font-size: 0.8rem;
     }
 }
-
-
 
 
