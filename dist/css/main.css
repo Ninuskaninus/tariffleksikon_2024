@@ -41,13 +41,38 @@ main {
   cursor: pointer;
 }
 
+.frifag-tariff-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+.frifag-tariff-logo img {
+  height: 50px;
+  max-width: 50px;
+  width: 100%;
+}
+.frifag-tariff-logo h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+@media screen and (max-width: 475px) {
+  .frifag-tariff-logo h1 {
+    font-size: 2rem;
+  }
+}
+
 .frifag-tariff-head {
   max-width: 500px;
   margin-bottom: 30px;
 }
-.frifag-tariff-head img {
-  margin-bottom: 40px;
-  width: 100%;
+.frifag-tariff-head h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .frifag-tariff-search-container {
@@ -203,6 +228,10 @@ p {
 .frifag-tariff-article-head img {
   width: 100%;
   height: auto;
+}
+.frifag-tariff-article-head h2 {
+  font-weight: 500;
+  margin: 0;
 }
 
 .frifag-tariff-article-body {
