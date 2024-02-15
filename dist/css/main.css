@@ -78,7 +78,7 @@ main {
   margin: 0;
   font-size: 1.4rem;
   font-weight: 500;
-  color: #FE6E1E;
+  color: #E4002B;
 }
 
 .frifag-tariff-search-container {
@@ -168,7 +168,7 @@ main {
 .frifag-leksikon-container h1 {
   margin-bottom: 30px;
   margin-top: 0;
-  background-color: #FE6E1E;
+  background-color: #E4002B;
   color: white;
   width: 80px;
   text-align: right;
@@ -238,7 +238,7 @@ p {
 .frifag-tariff-article-head h2 {
   font-weight: 500;
   margin: 0;
-  color: #FE6E1E;
+  color: #E4002B;
   font-size: 1.4rem;
 }
 
@@ -262,7 +262,7 @@ p {
 }
 .frifag-tariff-article-body a {
   text-decoration: none;
-  color: #FE6E1E;
+  color: #E4002B;
   font-weight: bold;
   font-family: "Lato", sans-serif;
   background-color: white;
@@ -280,7 +280,7 @@ p {
 
 .frifag-tariff-backBtn {
   color: white;
-  background-color: #FE6E1E;
+  background-color: #E4002B;
   padding: 10px 20px;
   box-sizing: border-box;
   text-decoration: none;
